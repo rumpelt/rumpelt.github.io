@@ -7,6 +7,7 @@ categories: [Machine Learning, optimization]
 I am going to demonstrate a bare minimum gradient descent example to learn parameters
 of an unknown function. The purpose here is to show the simplicity of the gradient descent
 and its ease of implementation in python.
+
 {% highlight python %}
 import numpy as np
 
@@ -44,6 +45,7 @@ print (data_set[0:5]) # print few rows of the data
 
 #=> [(33.72878058096043, 44.0), (36.7522233937801, 50.0), (4.597037856771852, 2.0), (37.3y93679871823124, 50.0), (30.212322525931185, 40.0)]
 {% endhighlight %}
+
 
 Now we have generated a synthetic dataset and so lets go ahead and do the gradient descent to estimate
 the actual theta (0.65) and the actual bias(5)
